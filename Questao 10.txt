@@ -1,0 +1,106 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package questao10;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Neco
+ */
+public class Questao10 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
+        
+        int vetor[][] = new int[3][3];
+        
+        System.out.println("Digite o estado inicial do jogo: ");
+        for(int i=0; i<3; i++){
+            for(int j=0; j<3; j++){
+                vetor[i][j] = scan.nextInt();
+            }
+        }
+        System.out.println();
+        for(int i=0; i<3; i++){
+            for(int j=0; j<3; j++){
+                if(vetor[i][j]==0){
+                    System.out.println("O zero esta na linha "+i+", coluna "+j);
+                }
+            }
+        } 
+        System.out.println("Estado Inicial: ");
+        for(int i=0; i<3; i++){
+            for(int j=0; j<3; j++){
+                System.out.print(" "+vetor[i][j]);
+            }
+            System.out.println("\t");
+        }
+        System.out.println();
+        if(vetor[1][1]==0)
+            for(int i=0; i<3; i++){
+                for(int j=0; j<3; j++){
+                    if(vetor[1][1]==0)
+                        vetor[0][1]=0;
+                        vetor[1][1]=2;
+                    System.out.print(" "+vetor[i][j]);
+                }
+                System.out.println("\t");
+            }
+            vetor[0][1]=2;
+            vetor[1][1]=0;
+            System.out.println();
+            for(int i=0; i<3; i++){
+                for(int j=0; j<3; j++){
+                    if(vetor[1][1]==0)
+                        vetor[1][2]=0;
+                        vetor[1][1]=6;
+                    
+                    System.out.print(" "+vetor[i][j]);
+                }
+                System.out.println("\t");
+            }
+            vetor[1][2]=6;
+            vetor[1][1]=0;
+            System.out.println();
+            for(int i=0; i<3; i++){
+                for(int j=0; j<3; j++){
+                    if(vetor[1][1]==0)
+                        vetor[2][1]=0;
+                        vetor[1][1]=4;
+                    
+                    System.out.print(" "+vetor[i][j]);
+                }
+                System.out.println("\t");
+            }
+             vetor[2][1]=4;
+             vetor[1][1]=0;
+            System.out.println();
+            for(int i=0; i<3; i++){
+                for(int j=0; j<3; j++){
+                    if(vetor[1][1]==0)
+                        vetor[1][0]=0;
+                        vetor[1][1]=5;
+                    
+                    System.out.print(" "+vetor[i][j]);
+                }
+                System.out.println("\t");
+            }
+            
+              
+    }       
+        
+}
+/*planejamento
+criar um vetor com 9 posições
+
+imprimir qual posição está o zero
+imprimir fazer dois for
+*/
