@@ -10,3 +10,7 @@ Outra forma de abrir e visualizar cada atividade, é baixando as pastas e import
 O Arquivo do grafo está juntamente com a pasta. No caminho especificado para importar, poderá ser alterado de acordo com o local onde irá salvar. 
 Demais questões, basta importar no netBeans e executar cada atividade, cada um possui a classe main.
 Boa noite e até mais! ;-) 
+
+Dando continuidade nas atividades, para a execução do trabalho prático 1, para conferência do códigom poderá entrar na pasta "TP1_IA", abrir a pasta "src" e novamente abrir "TP1_IA" e escolher qual código do trabalho deseja verificar. Após clicar nele, irá aparecer o código-fonte na tela. Caso queira testar e ver como está funcionando, o código do estado inicial comentado no main, é um caso que tanto na busca em largura quanto em profundidade ele consegue resolver, mostrando o caminho percorrido e no profundidade, em quanto movimento conseguiu resolver, baseado no limite definido.
+Os dados do sistema utilizado, continua sendo o que está no início deste. Caso deseje executar no NetBeans, baixe a pasta, vá em arquivo e abrir novo projeto. Basta escolher a pasta e clicar no mais dela. Irá aparecer a xícara do java, bastando apenas selecionar e importar.
+No mais, isso tudo. 
