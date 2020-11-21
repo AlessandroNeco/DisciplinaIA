@@ -14,7 +14,7 @@ Boa noite e até mais! ;-)
 Dando continuidade nas atividades, para a execução do trabalho prático 1, para conferência do código poderá entrar na pasta "TP1_IA", abrir a pasta "src" e novamente abrir "TP1_IA" e escolher qual código do trabalho deseja verificar. Após clicar nele, irá aparecer o código-fonte na tela. Caso queira testar e ver como está funcionando, o código do estado inicial comentado no main, é um caso que tanto na busca em largura quanto em profundidade ele consegue resolver, mostrando o caminho percorrido e no profundidade, em quantos movimentos conseguiu resolver, baseado no limite definido.
 Os dados do sistema utilizado, continua sendo o que está no início deste. Caso deseje executar no NetBeans, baixe a pasta, vá em arquivo e abrir novo projeto. Basta escolher a pasta e clicar no mais dela. Irá aparecer a xícara do java, bastando apenas selecionar e importar.
 
-O vídeo explicando o código da busca largura e em profundidade, estão também dentro da pasta "TP1_IA". Basta baixa-lo que poderá assinar normalmente(necessário software de multimídia instalado).
+O vídeo explicando o código da busca largura e em profundidade, estão também dentro da pasta "TP1_IA". Basta baixa-lo que poderá assistir normalmente(necessário software de multimídia instalado).
 
 Dois videos que me ajudaram a entender são estes: "Aplicação de Busca em Largura para solução do 8 Puzzle" https://youtu.be/jn3trNZv2nU e outro seria "Busca por Aprofundamento Iterativo, Largura e Profundidade" https://www.youtube.com/watch?v=-qj-9bvwh2Y&app=desktop . Teve diversos outros vídeos e sites que utilizei, principalmente o que foi disponibilizado no classo room, mas não coloquei todos para não ficar muito extenso. 
 No mais, uma boa noite e um ótimo dia! 
